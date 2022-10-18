@@ -135,11 +135,6 @@ class ScreenHome extends StatelessWidget {
               height: 5,
               thickness: 0.8,
             ),
-            const Divider(
-              color: Colors.grey,
-              height: 5,
-              thickness: 0.8,
-            ),
             ListTile(
               leading: ClipRRect(
                 child: Container(
