@@ -1,6 +1,4 @@
-// import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-// import 'package:login_page1/LoginPage.dart';
 import 'package:login_page1/splash.dart';
 
 void main() {
