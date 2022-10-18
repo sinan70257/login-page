@@ -22,12 +22,6 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   @override
-  void didChangeDependencies() {
-    // TODO: implement didChangeDependencies
-    super.didChangeDependencies();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
