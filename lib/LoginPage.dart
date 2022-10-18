@@ -14,7 +14,7 @@ class _LoginPageState extends State<LoginPage> {
   final _usernameController = TextEditingController();
 
   final _passwordController = TextEditingController();
-  bool ismatched = false;
+
   final formkey = GlobalKey<FormState>();
 
   @override
@@ -118,8 +118,6 @@ class _LoginPageState extends State<LoginPage> {
     }
     //go to home
     else {
-      ismatched = false;
-
       // final _errorMessage = 'Username and password are not the same';
       // //snackbar
 
