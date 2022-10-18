@@ -34,10 +34,10 @@ class _SplashScreenState extends State<SplashScreen> {
               "assets/images/1039189.png",
               height: 75,
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            Text(
+            const Text(
               "Chinchagram",
               style: TextStyle(color: Colors.grey),
             )
@@ -45,12 +45,6 @@ class _SplashScreenState extends State<SplashScreen> {
         ),
       ),
     );
-  }
-
-  @override
-  void dispose() {
-    // TODO: implement dispose
-    super.dispose();
   }
 
   Future<void> gotologin() async {
