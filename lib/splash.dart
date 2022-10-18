@@ -6,7 +6,6 @@ import 'package:login_page1/screenMain.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 const SaveKeyName = "user logged in";
-// final _sharedpreferences=SharedPreferences.getInstance();
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
